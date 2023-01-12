@@ -1,0 +1,15 @@
+
+
+#sketchGrid {
+  width: calc(40vw);
+  height: calc(40vh);
+  border: 8px solid black;
+  border-radius: 10px;
+}
+ .squares {
+    width: calc(40vw / 16);
+    height: calc(40vh / 16);
+    float: left;
+    background-color: red;
+  }
+
