@@ -1,15 +1,17 @@
 
 
-#sketchGrid {
-  width: calc(40vw);
-  height: calc(40vh);
-  border: 8px solid black;
-  border-radius: 10px;
-}
- .squares {
-    width: calc(40vw / 16);
-    height: calc(40vh / 16);
+
+  #sketchGrid {
+    width: 960px; /* set the width of the container div */
+    height: 480px; /* set the height of the container div */
+    border: 8px solid black;
+    border-radius: 10px;
+    /* overflow: hidden; this will prevent the squares from overflowing outside the container div */
+  }
+  
+  .squares {
+    width: calc(960px / gridSize); /* adjust the width of the squares based on the grid size */
+    height: calc(480px / gridSize); /* adjust the height of the squares based on the grid size */
     float: left;
     background-color: whitesmoke;
   }
-
